@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="nav-title">
+                <h1>Dojonary</h1>
+            </div>
+            <div>
+                <input type="text" name="search" placeholder="Search">
+            </div>
+            <button class="btn" onclick="login(this)">Login</button>
+        </nav>
+        <main>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <h1>ninja</h1>
+                        <div class="definition">
+                            <div class="noun">
+                                <h3>noun</h3>
+                                <h4>Plural: ninjas</h4>
+                            </div>
+                            <div class="meaning">
+                                <p>A practitioner skilled in the<br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                            </div>
+                        </div>
+                        <button class="likes" onclick="alert('Ninja was Liked')">13 likes</button>
+                    </div>
+                    <div class="card">
+                        <h1>ninja</h1>
+                        <div class="definition">
+                            <div class="noun">
+                                <h3>noun</h3>
+                                <h4>Plural: ninjas</h4>
+                            </div>
+                            <div class="meaning">
+                                <p>A <a href="#">programmer</a> who breaks<br>down problems with <a href="#">zen</a> -like focus</p>
+                            </div>
+                        </div>
+                        <button class="likes" onclick="alert('Ninja was Liked')">37 likes</button>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <p>Dojonary is <br>defined by YOU</p>
+                    <button class="add" onclick="move(this)">Add Definition</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

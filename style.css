@@ -1,0 +1,148 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 85em;
+    margin: 0 auto;
+    padding: 0 2em;
+    font-family: cursive;
+}
+
+/* NAVIGATION BAR */
+.nav{
+    height: auto;
+    padding: 0 1em;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.nav-title{
+    font-size: 1.4em;
+    margin: 0.63em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn{
+    width: 8em;
+    height: 2em;
+    margin: 8px;
+    color: #131413;
+    border: 1px solid rgb(67, 219, 67);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+}
+input{
+    width: 23em;
+    height: 2.4em;
+    background-color: rgba(246, 239, 239, 0.838);
+    border: 3px solid rgba(75, 20, 20, 0.3);
+}
+input::placeholder{
+    padding: 0.5em;
+    font-size: 18px;
+    color: #eff7f3;
+}
+
+/* Flexible columns and rowns */
+.row{
+    height: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    height: auto;
+    flex: 2;
+}
+.col-2{
+    flex: 1;
+    height: 12em;
+    margin-left: 2em;
+    padding: 1.5em;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 3px solid rgb(67, 219, 67);
+}
+.card{
+    width: inherit;
+    height: 14em;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 3px solid rgb(67, 219, 67);
+}
+.definition{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.4em;
+}
+.noun{
+    flex: 1;
+    margin-right: 0.8em;
+}
+.noun h1{
+    font-size: 3.5em;
+}
+.noun h3{
+    margin-left: 0.6em;
+    font-size: 2em;
+    font-weight: 100;
+}
+.noun h4{
+    font-size: 2em;
+    font-weight: 100;
+}
+.meaning{
+    flex: 2;
+    font-size: 1.5em;
+}
+.likes{
+    width: 6em;
+    height: 2.5em;
+    color: #fff;
+    background-color: rgb(183, 232, 48);
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    box-shadow: 0.2em 0.3em 0.1em rgb(129, 127, 127);
+}
+.likes:hover{
+    background-color: aqua;
+    color: #1b0a0a;
+    cursor: pointer;
+}
+
+/* column two */
+.col-2 p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.add{
+    width: 12em;
+    height: 3em;
+    color: #000;
+    background-color: rgb(36, 141, 4);
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    box-shadow: 0.2em 0.3em 0.1em rgb(129, 127, 127);
+}
+.add:hover{
+    color: #fff;
+    background-color: rgb(121, 250, 233);
+    cursor: pointer;
+}
