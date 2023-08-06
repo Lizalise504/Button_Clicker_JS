@@ -8,3 +8,8 @@ function move(hide){
     hide.remove();
 }
 
+// Alert function
+function popup(element){
+    alert("Ninja was Liked");
+}
+
